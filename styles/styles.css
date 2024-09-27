@@ -25,7 +25,7 @@ p {
     padding: 0;
 }
 aside{
-    width: 550px;
+    max-width: 840px;
     margin: 10px;
     border: 1px solid #0D0D0D;
     padding: 15px;
