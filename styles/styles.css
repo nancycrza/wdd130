@@ -1,5 +1,5 @@
 nav {
-    background-color: steelblue;
+    background-color: #027373;
     padding: 10px;
 }
 
@@ -10,17 +10,37 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: black;
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #A9D9D0;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 5px #A9D9D0;
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+aside{
+    width: 550px;
+    margin: 10px;
+    border: 1px solid #0D0D0D;
+    padding: 15px;
+    background-color: #027373;
+    color: white;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #A9D9D0;
+    text-align: center;
 }
