@@ -1,13 +1,13 @@
 :root {
-    --heading-background-color: black;
+    --heading-background-color: #a362be;
     --heading-text-color: white;
     --heading-font: 'Montserrat', Helvica, sans-serif;
     --padding: 1rem;
-    --border: 10px solid black;
+    --border: 10px solid rgb(19, 18, 18);
 }
 
 nav {
-    background-color: #fb7527;
+    background-color: #fc9051;
     padding: 10px;
 }
 
@@ -41,7 +41,7 @@ aside{
     margin: 10px;
     border: 1px solid #0D0D0D;
     padding: black;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     color: white;
     text-align: center;
 }
