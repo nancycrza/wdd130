@@ -1,5 +1,13 @@
+:root {
+    --heading-background-color: black;
+    --heading-text-color: white;
+    --heading-font: 'Montserrat', Helvica, sans-serif;
+    --padding: 1rem;
+    --border: 10px solid black;
+}
+
 nav {
-    background-color: #027373;
+    background-color: #fb7527;
     padding: 10px;
 }
 
@@ -10,26 +18,30 @@ nav a {
 }
 
 h1 {
-    color: black;
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid #A9D9D0;
+    border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 5px #A9D9D0;
+    box-shadow: 0 0 5px #f28444;
 }
 
 p {
     padding: 0;
+    color: #a15abf;
 }
 aside{
     max-width: 840px;
     margin: 10px;
     border: 1px solid #0D0D0D;
-    padding: 15px;
-    background-color: #027373;
+    padding: black;
+    background-color: black;
     color: white;
     text-align: center;
 }
@@ -41,6 +53,6 @@ aside img {
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid #A9D9D0;
+    border-top: 1px solid #a15abf;
     text-align: center;
-}
+} 
