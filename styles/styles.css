@@ -5,8 +5,9 @@
     --heading-text-color: white;
     --heading-font: 'Montserrat', Helvica, sans-serif;
     --padding: 1rem;
-    --border: 10px solid rgb(19, 18, 18);
+    
 }
+   
 
 * {
     margin: 0;
@@ -30,7 +31,7 @@ main {
 
 main img {
     width: 130px;
-    height: auto;
+    height: var(--height);
     border: 1px solid black;
     padding: 10px;
     box-shadow: 0 0 5px black;
@@ -47,6 +48,7 @@ p {
 aside {
     width: 30em;
     text-align: center;
+    position: relative;
     
 }
 
@@ -56,9 +58,10 @@ aside img {
 }
 
 aside h2 {
-    position:relative;
-    top: 0px;
-    left: 0px;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
     
 }
 
@@ -89,5 +92,6 @@ h1 {
 }
 .indent {
     padding-left: 2rem;
+    color: white;
 
 }
