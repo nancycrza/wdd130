@@ -52,17 +52,14 @@ aside {
 
 aside img {
     width: 200px;
-    height: var(--text-align);
+   
 }
 
 aside h2 {
     position:relative;
-    top: 0;
-    left: 1px;
-    padding: black;
-    background-color: clear;
-    color: #8e2ab9;
-
+    top: 0px;
+    left: 0px;
+    
 }
 
 footer {
@@ -88,7 +85,7 @@ h1 {
     border: 1px;
     padding: 1rem;
     background-color: #fbde4e;
-    color: green;
+    color: #2e2d2d
 }
 .indent {
     padding-left: 2rem;
