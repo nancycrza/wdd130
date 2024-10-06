@@ -76,6 +76,8 @@ h1 {
     color: var(--heading-text-color);
     font-family: var(--heading-font);
     padding: 1rem;
+
+    
     
     
 }
@@ -88,7 +90,8 @@ h1 {
     border: 1px;
     padding: 1rem;
     background-color: #fbde4e;
-    color: #2e2d2d
+    color: white;
+
 }
 .indent {
     padding-left: 2rem;
