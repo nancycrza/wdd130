@@ -43,6 +43,7 @@ h1 {
     padding: 10.2rem;
     font-family: "Roboto", sans-serif; 
     font-weight: 10;
+    width: 50rem;
     
 
 }
@@ -54,6 +55,7 @@ body {
     font-weight: 400;
     color: #465e73;
     padding-inline: 2.5rem;
+    width: 50rem;
 }
 
 h2 {
