@@ -1,8 +1,8 @@
 :root {
     --text-align: center;
     --height: auto;
-    --heading-background-color: #a362be;
-    --heading-text-color: white;
+    --heading-background-color: #dfc7ea;
+    --heading-text-color: rgb(34, 34, 34);
     --heading-font: 'Montserrat', Helvica, sans-serif;
     --padding: 1rem;
     
@@ -14,87 +14,134 @@
     padding: 0;
     box-sizing: border-box;
 }
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 
-nav {
-    background-color: #fc9051;
-    padding: 10px;
+nav { 
+    /*top part of page home rafting etc HEADER>NAV*/
+    background-color: #c686e4;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-family: sans-serif;
 }
 
 nav a {
+     /*top part of page letters home rafting etc*/
     color: white;
     display: block;
     padding: 5px;
+    text-decoration:none; 
+    font-size: 1.2rem;
+    font-weight: 700;
 }
+
+
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+
+
 main {
-    max-width: 900px;
+    margin: 1rem;
+    grid-column: 2;
+}
+h1 {
+    /* PINK row nancy c |wdd130, font,color font,row size*/
+    background-color:  #dab6ea;
+    color: white; 
+    font-family: sans-serif;
+    padding: 1rem; 
+    
+}
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+    
 }
 
 main img {
-    width: 130px;
+     /*my picture*/
+    width: 110px;
     height: var(--height);
-    border: 1px solid black;
-    padding: 10px;
-    box-shadow: 0 0 5px black;
+    border: 1px solid rgb(174, 171, 171);
+    padding: 2px;
+    box-shadow: 0 0 5px rgb(174, 171, 171);
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 1rem 1em;
 }
 
-p {
-    margin: 2.5rem;
-    padding: 0;
-    color: #383737;
-}
+
+
+
 
 aside {
-    width: 30em;
-    text-align: center;
+     /*temple pic and paragraph under and SLC, utah */
+    width: 20rem;
     position: relative;
+    grid-column:1;
+    grid-row: 1;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
     
-}
-
-aside img {
-    width: 200px;
-   
 }
 
 aside h2 {
-    position:absolute;
-    top: 10px;
-    left: 10px;
-    color: white;
-    
+    /* slc,ut */
+   position:absolute;
+   top: 18px;
+   left: 110px;
+   color:  #a872bf;
+   
 }
+
+aside img {
+     /* temple pic */
+    width: 200px;
+   }
+
+p {
+    /*temple paragraph*/
+   margin: 2.5rem;
+   padding: 0;
+   color: #383737;
+   opacity: 0.9;
+}
+
+
 
 footer {
+    /* back white wallwhere last sentance nancy c utah US mountains*/
     margin-top: 1em;
-    border-top: 1px solid #a15abf;
+    border-top: 1px solid #bfabc8; /* line separating from temple paragraph */
     text-align: center;
 } 
-
-h1 {
-    background-color: var(--heading-background-color);
-    color: var(--heading-text-color);
-    font-family: var(--heading-font);
-    padding: 1rem;
-
-    
-    
-    
-}
 
 
 
 /* Class Selectors */
 .box {
-    margin: 1rem;
+    /* not sure what this is. it moved the row and box temple */
+    margin: 1.3rem;
     border: 1px;
     padding: 1rem;
-    background-color: #fbde4e;
-    color: white;
+    background-color: #f0e8f4;
+    color: black;
+    
+   
 
 }
-.indent {
+.indent { 
+    /* dots indent of temples site and color of dots */
     padding-left: 2rem;
-    color: white;
+    color: #a15abf;
 
 }
