@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta name="author" content="Nancy Crza">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>WDD 130 | Nancy Crza | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset> <!--boxes-->
+            <legend>Contact Information</legend>
+            <!--form elements here-->
+            <div class="form-item column1"> <!--name-->
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column1"> <!--email-->
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+                <!--another valid way to write is like this
+            <fieldset>
+            <legend>Contact Information</legend>
+            <label>Full Name: <input type="text" name="fullname"></label>
+            < label>Email: <input type="email" name="useremail">/label>-->
+            </div>
+        </fieldset>
+        <fieldset> <!--boxes-->
+            <legend>Questions</legend>
+            <div class="form-item column2"> <!--browser-->
+                <label for="browser">What is your favorite internet browser?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-item column2"> <!--pet-->
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet"> <!--little box to select-->
+                <label for="countries">List the places you have lived:</label>
+            </div>
+                <textarea id="countries" name="countries" rows="4" placeholder="Canada, United States, Mexico, Central America, South America, Other"></textarea>
+            
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+    </form>
+
+</main>
+<footer>
+    <p>©2024 | HTML Form - User Poll Activity | Nancy Crza</p>
+</footer>
+</body>
+</html>
