@@ -186,14 +186,20 @@ body {
   font-size : 1.5em;
   color : #333;
   background : #fff;
+ 
   }
 
 h1 {
-  margin : 1rem;
+  margin : 0rem;
+  margin-bottom: 2rem;
   font-size: x-large;
-
   text-align :left;
   }
+
+
+
+
+
 form {
   display : grid;
   width : auto;
