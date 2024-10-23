@@ -18,13 +18,13 @@ header, main, .hero h1, footer {
 }
 p {
     /*history paragraph font weight*/
-   font-family: "Roboto", sans-serif;
-   font-weight: 400;
+   font-family: Roboto, sans-serif;
+   font-weight: 300;
 }
 h2 {
     /*history title font weight color*/
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
     color: whitesmoke;
 }
 
@@ -35,6 +35,7 @@ nav a {
     color:white;
     font-weight: 500;
     font-size:large;
+    font-family: Raleway, sans-serif;
    
 }
 nav a:hover {
@@ -50,6 +51,8 @@ header {
     border:whitesmoke 1px;
     margin-bottom: 1rem;
     background-color:#042d45;
+   
+  
 }
 header nav {
     display: flex;
@@ -72,7 +75,7 @@ footer {
 }
 footer p {
     align-self: center;
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
     color:rgb(145, 144, 144);
 
 }
@@ -90,9 +93,9 @@ footer p {
 
 }
 .hero h1 { 
-    font-family : "Roboto", sans-serif;
-    font-weight : 500;
-    font-size : 50px;
+    font-family : Roboto, sans-serif;
+    font-weight : 200;
+    font-size : 30px;
     position : absolute;
     top : 28%;
     width : 100%;
@@ -105,7 +108,7 @@ footer p {
 }
 .hero article {
     display : flex;
-    font-weight : 400;
+    font-weight : 300;
     position : absolute;
     text-align : left;
     background-color : rgb(63, 138, 135, 0.7);   /*0.5 is the opacity*/
@@ -143,7 +146,7 @@ footer p {
     justify-self: right;
     padding:0 20px;
 }
-.adventure {
+.adventure  {
     border: black 1px;
     display: grid;
     grid-template: 5rem 1fr / repeat(5,1fr);
@@ -151,19 +154,143 @@ footer p {
     background-color: #042d45;
     margin-bottom: 20px;
 }
-.adventure h2 {
+.adventure h2  {
     grid-column: 1 / 6;
     justify-self: center;
     font-size: 40px;
+    color: white;
 }
 .adventure img {
     width:100%;
     padding: 0px 10px 10px;
 }
 .adventure figcaption {
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
     text-align: center;
     color: white;
     font-weight: 500;
     font-size: 25px;
 }
+
+
+
+
+
+/*contact us part*/
+
+
+
+
+body {
+  font-family : Raleway, sans-serif;
+  font-size : 1.5em;
+  color : #333;
+  background : #fff;
+  }
+
+h1 {
+  margin : 1rem;
+  font-size: x-large;
+
+  text-align :left;
+  }
+form {
+  display : grid;
+  width : auto;
+  margin : 0 auto;
+  padding : 1rem;
+  border : 1px solid rgba(247, 246, 246, 0.1);
+  border-radius : 0rem;
+  background-color : #eee;
+ 
+  }
+fieldset {
+  display : grid;
+  grid-gap: .5rem;
+  margin : 1rem;
+  border : 1px solid rgba(0, 0, 0, 0.1);
+  padding : 1rem;
+  }
+
+ 
+label, input, button, select, textarea {
+  font-family : Inter, sans-serif;
+  }
+label {
+  text-align : left;
+  padding-right : 1rem;
+  margin-top: 1rem;
+  }
+input, select, textarea {
+  padding : 0.5rem;
+  font-size : 1.1rem;
+  }
+
+input[type="checkbox"] {
+  width : 25px;
+  height : 25px;
+  vertical-align : bottom;
+  margin-top: 1rem;
+  }
+button {
+  margin : 1rem;
+  background-color : #092c58;
+  color : #fff;
+  border : none;
+  border-radius : .5rem;
+  padding : .75rem;
+  font-size : 1.2rem;
+  }
+button:hover {
+  background-color : rgb(73, 172, 78);
+  }
+
+.form-item {
+  display : grid;
+  align-items : center;
+  }
+
+  .team  {
+    display: flex;
+    padding: 3em;
+  
+  }
+    
+  .team h1  {
+    grid-column: 1 / 6;
+      justify-self: center;
+      font-size: 40px;
+      color: #042d45;
+  
+    
+  }
+  .team img {
+    display: flex;
+    
+    flex-direction: space-between;
+    width: 200px;
+    height: 200px;
+
+    
+  
+    
+  }
+  .team figcaption {
+    font-family: Raleway, sans-serif;
+      display: flex;
+      
+      
+
+      color: #042d45;
+      font-weight: 600;
+      font-size: 25px;
+    
+    
+    
+  }
+
+
+
+
+    
+    
