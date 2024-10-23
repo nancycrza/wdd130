@@ -188,13 +188,32 @@ body {
   background : #fff;
  
   }
+.contact-us{
+  font-family: Roboto, sans-serif;
+  font-size: large;
+  color:#042d45
 
-h1 {
-  margin : 0rem;
-  margin-bottom: 2rem;
-  font-size: x-large;
-  text-align :left;
+}
+
+.phoneno {
+  font-family: Roboto, sans-serif;
+  margin: .5em;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  
   }
+.emailad {
+  font-family: Roboto, sans-serif;
+  margin: .5em;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+.location {
+  font-family: Roboto, sans-serif;
+  margin: .5em;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
 
 
 
@@ -220,8 +239,12 @@ fieldset {
 
  
 label, input, button, select, textarea {
-  font-family : Inter, sans-serif;
-  }
+  font-family: Roboto, sans-serif;
+  margin: .5em;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+  
 label {
   text-align : left;
   padding-right : 1rem;
@@ -229,14 +252,13 @@ label {
   }
 input, select, textarea {
   padding : 0.5rem;
-  font-size : 1.1rem;
+  font-size : 20px;
   }
 
 input[type="checkbox"] {
-  width : 25px;
+width : 25px;
   height : 25px;
-  vertical-align : bottom;
-  margin-top: 1rem;
+  margin-top: .5rem;
   }
 button {
   margin : 1rem;
@@ -245,7 +267,7 @@ button {
   border : none;
   border-radius : .5rem;
   padding : .75rem;
-  font-size : 1.2rem;
+  font-size : 20px;
   }
 button:hover {
   background-color : rgb(73, 172, 78);

@@ -29,22 +29,23 @@
           </div>
 
           <div class="phoneno">
-          <img src="images/phone.png" alt="phone" width="25">
+          <img src="images/phone.png" alt="phone" width="25">  +1 123-456-7890</div>
           <p class="contact-text"></p>
-          <p>+1 123-456-7890</p>
-            </div>
+         
+            
             <div class="emailad">
-            <img src="images/email.png" alt="email" width="25">
-            <p class="contact-text">contact_us@wdryoar.com</p>
-            </div>
+            <img src="images/email.png" alt="email" width="25">  contact_us@wdryoar.com</div>
+            
+            
             <div class="location">
-              <img src="images/pin.png" alt="pin" width="25">
-              <p class="contact-text">1234 Provo River, Provo, UT 12345</p>
-            </div>
+              <img src="images/pin.png" alt="pin" width="25"> 1234 Provo River, Provo, UT 12345</div>
+             
+            
 
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24294.516308626116!2d-111.50861592786353!3d40.435105416088064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srafting!5e0!3m2!1sen!2sus!4v1729631741470!5m2!1sen!2sus" width="355" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+
             <form>
             <div class="form-item custinf1">
               <label for="fullname">Full Name</label>
@@ -54,20 +55,27 @@
               <label for="useremail">Email Address</label>
               <input type="email" id="useremail" name="useremail">
             </div>
+             <!--another valid way to write is like this
+            <fieldset>
+            <legend>Contact Information</legend>
+            <label>Full Name <input type="text" name="fullname"></label>
+            < label>Email: <input type="email" name="useremail">/label>-->
             <div class="form-item custinf2"> 
-              <label for="purpose">Purpose of the message</label>
-              <select id="purpose" name="purpose">
-                <option value="general inquiry">General Inquiry</option>
-                <option value="reservation quesion">Reservation Question</option>
-                <option value="website sugegstion">Website Suggestion</option>
+              <label for="message">Purpose of Message</label>
+              </div>
+              <div class="message-box">
+              <label>General Inquiry <input type="radio" name="purpose-of-message" value="general"></label>
+              <label>Reservation Question <input type="radio" name="purpose-of-message" value="reservation"></label>
+              <label>Website Suggestion <input type="radio" name="purpose-of-message" value="suggestion"></label>
               </select>
             </div>
             <div class="form-item custinf2"> 
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="subscribe" name="subscribe"> 
+                
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="10"></textarea>
                 <button type="submit">Submit</button>
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe"> 
             </div>
             </form>
 
