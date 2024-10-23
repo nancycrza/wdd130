@@ -226,7 +226,7 @@ form {
   padding : 1rem;
   border : 1px solid rgba(247, 246, 246, 0.1);
   border-radius : 0rem;
-  background-color : #eee;
+  background-color : white;
  
   }
 fieldset {
@@ -243,6 +243,7 @@ label, input, button, select, textarea {
   margin: .5em;
   margin-bottom: 1rem;
   font-size: 20px;
+  
 }
   
 label {
