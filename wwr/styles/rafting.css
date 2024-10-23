@@ -250,23 +250,33 @@ button:hover {
   align-items : center;
   }
 
-  .team  {
-    display: flex;
-    padding: 3em;
+
+
+
+.team  {
+  border: black 1px;
+  display: grid;
+  grid-template: 5rem 1fr / repeat(5,1fr);
+  align-items: center;
+ 
+  
   
   }
     
-  .team h1  {
+.team h1  {
     grid-column: 1 / 6;
-      justify-self: center;
-      font-size: 40px;
-      color: #042d45;
+    justify-self: center;
+    font-size: 30px;
+    color: #042d45;
+
+    
   
     
   }
-  .team img {
+.team img {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 200px;
     height: 200px;
 
@@ -274,15 +284,13 @@ button:hover {
   
     
   }
-  .team figcaption {
+.team figcaption {
     font-family: Raleway, sans-serif;
       display: flex;
-      
-      
-
+      justify-content: space-evenly;
       color: #042d45;
       font-weight: 600;
-      font-size: 25px;
+      font-size: 20px;
     
     
     
