@@ -266,8 +266,7 @@ button:hover {
   }
   .team img {
     display: flex;
-    
-    flex-direction: space-between;
+    flex-direction: row;
     width: 200px;
     height: 200px;
 
