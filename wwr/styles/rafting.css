@@ -113,7 +113,7 @@ footer p {
     font-weight : 200;
     font-size : 30px;
     position : absolute;
-    top :35%;
+    top :25%;
     width : 100%;
     color : #eee;
     background-color : rgb(0, 0, 0, 0.5);
@@ -141,7 +141,7 @@ footer p {
     background-color : rgba(17, 17, 17, 0.7);   /*0.5 is the opacity*/
     color:white;
     max-width : 900px;
-    top : 40%;
+    top : 30%;
     right : 40%;
     padding : 1rem;
 }
@@ -298,12 +298,12 @@ h1 {
 
 /*about us page DONT CHANGE about us page*/
 .history {
-    border : black solid 1px;
+    border : whitesmoke 1px;
     margin : 20px 0;
     display : grid;
     grid-template : 3rem 1fr / 1fr 0.5fr 1fr;
     align-items : center;
-    background-color : rgb(63, 138, 135);
+    background-color:white;
 }
 .history h2 {
     grid-column: 1 / 9;
@@ -312,7 +312,7 @@ h1 {
     padding: 20px 0;
     font-weight: 500;
     font-family: Raleway, sans-serif;
-    color:#eee;
+    color:#042d45;
 }
 .history img {
     justify-self: center;
@@ -324,7 +324,7 @@ h1 {
     justify-self: right;
     padding:0 20px;
     font-family: Raleway, sans-serif;
-    color:#eee;
+    color:#042d45;
 }
 /*ABOUT US page DONT CHANGE ABOUT US page*/
 
