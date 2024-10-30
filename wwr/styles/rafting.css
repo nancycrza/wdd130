@@ -211,6 +211,7 @@ aside p{
   
   color:white;
   font: 25px;
+  text-align: left;
 }
 
 /*TRIPS page */
@@ -286,6 +287,50 @@ p {
     text-align: center
 }
 
+/* SUMMARY TABLE*/
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: top;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 80px 250px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+/*SUMMARY TABLE*/
+
 
 
 
@@ -358,7 +403,15 @@ h1 {
 
 
 /*HOME adventure HOME adventure DONT CHANGE*/
+
+.adventurehome {
+   background-color:#eee;
+  padding: 1em;
+  overflow: auto;
+
+}
 .adventurehome button  {
+  
   grid-column: 1 / 6;
   justify-self: center;
   font-size: 20px;
@@ -367,25 +420,21 @@ h1 {
 }
 
 
-.adventurehome {
-  display:grid;
-  
 
-}
 .adventurehome img {
-  
-  
-  height: auto;
-  object-fit: cover;
-  width:auto;
-  height: auto;
-  
   display: grid;
-  place-items: center;
-    text-align: center;
-    width: 65em;
-    height: 21em;
-    margin-bottom: 20px;
+  
+  
+  
+ object-fit: cover;
+ width: 68.9em;
+ height: 21em;
+ margin: 0em;
+  
+  
+  
+  
+   
   
   
 }
@@ -394,16 +443,20 @@ h1 {
 
 
 
-form {
-border: 3px solid #f1f1f1;
+.form {
+border: 1px solid #f1f1f1;
 font-family: Roboto, sans-serif;
 font-size: 20px;
+
+
 
 }
 
 .container {
-padding: 10px;
+padding: 1em;
 background-color: #f1f1f1;
+width: auto;
+
 }
 h2 {
 color:black;
@@ -411,7 +464,7 @@ color:black;
 input[type=text], input[type=submit] {
   width: 100%;
   padding: 12px;
-  margin: 8px 0;
+  margin: 10px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
